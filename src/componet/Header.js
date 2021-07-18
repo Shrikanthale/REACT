@@ -1,11 +1,25 @@
 import React from 'react'
 import '../style.css'
-function Header(){
-    return (
-        <div>
-            <h1 className="Nav" >Shrikant kanthale : software student</h1>
-        </div>
-    )
+
+class Header extends React.Component{
+    constructor(props){
+        super(props)
+    }
+    render(){
+        return (
+            <div>
+                <h1 className="Nav" > {this.props.name} : software student</h1>
+            </div>
+        )
+    }
 }
 
 export default Header
+
+// function Header(props){
+//     return (
+//         <div>
+//             <h1 className="Nav" > {props.name} : software student</h1>
+//         </div>
+//     )
+// }
