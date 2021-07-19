@@ -6,6 +6,8 @@ import ReactDOM from 'react-dom';
 //import Greetures from './jsx_with_js/Greetures';
 //import Contact from './contactcard/Contact';
 import ChangeColor from './SetState/ChangeColor';
+import ChangeForm from './SetState/ChangeForm';
+import ChangeFormat from './SetState/ChangeFormat';
 import ChangeSet from './SetState/ChangeSet';
 
 //import App from './App';
@@ -21,6 +23,6 @@ import ChangeSet from './SetState/ChangeSet';
 //     </div>
 //   )
 // }
-ReactDOM.render(<ChangeSet/>,document.getElementById('root'));
+ReactDOM.render(<ChangeForm/>,document.getElementById('root'));
 
 
