@@ -1,7 +1,7 @@
 import React from 'react'
 
 class ChangeColor extends React.Component{
-    constructor(props){
+    constructor(props){                              // whenever class object will be created then constructor come into the picutre (props-bydefault)
         super(props)
         this.state = {
             brand : "samsung",
