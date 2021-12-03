@@ -38,7 +38,20 @@ import NotFound2 from './Route2/NotFound2';
 import Mounting1 from './LifeCycle1/Mounting1';
 import Mounting2 from './LifeCycle2/Mounting2';
 import Updating from './LifeCycle1/Updating';
-
+import Updating2 from './LifeCycle2/Updating2';
+import Updating3 from './LifeCycle2/Updating3';
+import Usenum from './Useeffect/Usenum'
+import Useref from './Useref/Useref';
+import Usestate from './UseState/Usestate'
+import Usereducer from './UseReducer/Usereducer';
+import Car from './Classcomponent/Car'
+import Event from './Events/Event'
+import Form from './Forms/Form'
+import Apiuseeffect from './Useeffect/Apiuseeffct';
+import Api from './Useeffect/Api';
+import Movieapi from './Useeffect/Movieapi';
+import Loginapi from './Useeffect/Loginapi';
+import Digitalclock from './Npmpackages/Digitalclock';
 
 const routing = (
     <BrowserRouter>
@@ -112,9 +125,26 @@ const routing2 = (
     </BrowserRouter>
 )
 
+// function Child (props){
+//     return(
+//      <>
+//        <h2> my parnet name is {props.surname} </h2> 
+//      </>
+//     )
+// }
 
+// function Parent (){
+//     const lastName = "hales";
+//     return(
+//      <div>
+//      <h1> ill give surname from parent to child </h1>
+//       {/* <Child surname="Abort" />  */}
+//       <Child surname={lastName}/>
+//       </div>
+//     )
+// }
 
-ReactDOM.render(<Updating color="White" />,document.getElementById('root'));
+ReactDOM.render(<Digitalclock />,document.getElementById('root'));
 
 
 
